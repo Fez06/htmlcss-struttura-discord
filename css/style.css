@@ -8,23 +8,29 @@
 
 /* -------debug------ */
 .header-top {
-    
     height: 80px;
 }
 
+.head {
+    height: 40px;
+}
+
 /* ------fine-debug------ */
+
+.container {
+    width: 2000px;
+}
 .header-top {
     display: flex;
-    background-color: azure;
+    background-color: rgb(91, 243, 243);
 }
 
 .head {
     width: 25px;
     background-color: orange;
-    display: flex;
     
 }
 
 .center {
-    
+    flex-grow: 3;
 }
