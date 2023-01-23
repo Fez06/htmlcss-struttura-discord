@@ -3,3 +3,9 @@
     border: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 2000px;
+    margin: 60px 65%;
+}
+
