@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-body { background-color: rgb(136, 66, 66);}
-
 .container {
     width: 2000px;
     margin: auto;
     display: flex;
     flex-direction: column;
+}
+
+main .container > * {
+    width: 60%;
 }
 
 /* -------debug------ */
@@ -34,6 +36,9 @@ section {
     height: 500px;
 }
 
+#green {
+    height: 900px;
+}
 /* ------fine-debug------ */
 
 /* <!------------------------ header --> */
@@ -53,7 +58,7 @@ section {
     line-height: 40px;
 }
 
-.container * {
+.container *,#green ,footer * {
     border: 1px dashed black;
 }
 
@@ -92,6 +97,13 @@ section {
 
 /* ----------------------inizio main  */
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 main > div {
     height: 600px;
     display: flex;
@@ -114,5 +126,79 @@ aside {
     background-color: rgb(221, 160, 221);
 }
 
+.final-container {
+    height: 1000px;
+    width: 2000px;
+}
+
+#green {
+    background-color: green;
+    width: 60%;
+}
+
+main > div:nth-of-type(even){
+    background-color: lightslategray;
+}
+
+/* ----------------------fine main  */
+
+/* -----------inizio footer ------  */
+
+footer {
+    width: 2000px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: #38314d;
+}
+
+.footer-top {
+    height: 630px;
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+.footer-top div {
+    height: calc(100% - 15px);
+    width: 214px;
+    background-color: aqua;
+    border-color: beige;
+}
+
+#big {
+    background-color: palevioletred;
+    flex-grow: 2;
+    border-color: black;
+}
+
+.footer-bot {
+    padding-top: 30px;
+    border-style: none;
+    border: 0;
+    margin: 1px solid white;
+}
+
+#chiusura {
+    width: 2000px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.fondo {
+    height: 80px;
+    width: 60%;
+    display: flex;
+    background-color: rgb(35, 155, 155);
+    justify-content: space-between;
+    line-height: 80px;
+
+}
+
+.logo, .bottone {
+    background-color: pink;
+}
 
 
