@@ -4,8 +4,27 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 2000px;
-    margin: 60px 65%;
+
+
+/* -------debug------ */
+.header-top {
+    
+    height: 80px;
 }
 
+/* ------fine-debug------ */
+.header-top {
+    display: flex;
+    background-color: azure;
+}
+
+.head {
+    width: 25px;
+    background-color: orange;
+    display: flex;
+    
+}
+
+.center {
+    
+}
